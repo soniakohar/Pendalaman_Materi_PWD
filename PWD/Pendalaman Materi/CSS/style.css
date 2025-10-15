@@ -28,7 +28,6 @@ form {
     margin: 0 auto;
 }
 
-/* Fieldset */
 fieldset {
     margin-bottom: 40px;
     padding: 20px;
@@ -41,7 +40,7 @@ legend, p{
     font-weight: bold;
     color:burlywood;
 }
-/* Label dan input */
+
 li {
     width: 150px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -53,7 +52,6 @@ input[type="text"], select{
     margin-bottom: 10px;
 }
 
-/* Tombol submit di tengah */
 input[type="submit"] {
     display: block;
     margin: 0 auto;
@@ -69,6 +67,7 @@ input[type="submit"]:hover {
     
      background-color: #a07547;
 }
+
 
 
 
