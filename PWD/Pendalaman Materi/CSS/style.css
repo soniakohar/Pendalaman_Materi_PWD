@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    min-height: 210vh;   
+    font-family: Arial, sans-serif;
+    background: 
+        linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)),
+        url("hotel.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.67);
+    padding: 13px;
+    border-radius: 15px;
+    text-shadow: 1px 1px 2px rgb(147, 119, 90);
+    text-align: center;
+}
+
+.contain {
+    margin: 0 auto;
+    width: 900px;
+}
+
+form {
+    background-color: white;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    width:500;
+    margin: 0 auto;
+}
+
+/* Fieldset */
+fieldset {
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 2px solid #e0d4c1;
+    background-color: #fffaf3;
+}
+
+legend, p{
+    font-size: 30;
+    font-weight: bold;
+    color:burlywood;
+}
+/* Label dan input */
+li {
+    width: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type="text"], select{
+    width: 200px;
+    padding: 7px;
+    margin-bottom: 10px;
+}
+
+/* Tombol submit di tengah */
+input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #b6895b;
+}
+
+input[type="submit"]:hover {
+    
+     background-color: #a07547;
+}
+
+
