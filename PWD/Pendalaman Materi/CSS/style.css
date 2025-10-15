@@ -13,16 +13,10 @@ body {
 
 h1 {
     color: black;
-    background-color: rgba(255, 255, 255, 0.67);
     padding: 13px;
     border-radius: 15px;
     text-shadow: 1px 1px 2px rgb(147, 119, 90);
     text-align: center;
-}
-
-.contain {
-    margin: 0 auto;
-    width: 900px;
 }
 
 form {
@@ -75,5 +69,6 @@ input[type="submit"]:hover {
     
      background-color: #a07547;
 }
+
 
 
